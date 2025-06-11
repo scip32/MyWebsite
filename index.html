@@ -4,10 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chng Zhe Wei – CV Website</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <style>
-    /* All existing style code unchanged */
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
@@ -24,13 +21,57 @@
   </nav>
 
   <section class="hero">
-    <img src="../image/pfp.jpg" alt="Profile image" />
+    <img src="image/pfp.jpg" alt="Profile image" />
     <h1>Hello, I’m <span class="highlight">Chng Zhe Wei</span></h1>
     <p>Front-End Developer & UI/UX Enthusiast based in <span class="highlight">Seri Iskandar UTP</span></p>
     <h2>I build beautiful <span class="highlight">digital experiences</span></h2>
   </section>
 
-  <!-- All other sections unchanged -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>I’m passionate about blending design and technology to create user-centered web applications. With a strong background in coding and creative problem-solving, I aim to make intuitive and responsive products that people love using.</p>
+  </section>
+
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>Bachelor in Information Technology</strong><br>
+      Universiti Teknologi PETRONAS, Malaysia – Expected 2028</p>
+    </div>
+    <div class="card">
+      <p><strong>High School SPM</strong><br>
+      High School Bukit Mertajam – Graduated 2023</p>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="card">HTML5 / CSS3</div>
+      <div class="card">JavaScript / React</div>
+      <div class="card">Node.js / Express</div>
+      <div class="card">MongoDB / Firebase</div>
+      <div class="card">Figma / Adobe XD</div>
+      <div class="card">Git / GitHub</div>
+    </div>
+  </section>
+
+  <section id="experience" class="container">
+    <h2>Work Experience</h2>
+    <div class="card">
+      <p><strong>Web Developer Intern</strong><br>
+      ABC Tech Solutions (2024 – Present)<br>
+      • Developed responsive UI components<br>
+      • Assisted in API integration<br>
+      • Collaborated in Agile team workflow</p>
+    </div>
+    <div class="card">
+      <p><strong>Freelance Web Designer</strong><br>
+      Self-Employed (2022 – 2024)<br>
+      • Designed and deployed portfolio sites<br>
+      • Focused on mobile-first design & SEO</p>
+    </div>
+  </section>
 
   <section id="projects" class="container">
     <h2>Projects</h2>
@@ -44,30 +85,28 @@
         <p>Lightweight JS library for client-side form checks.</p>
       </div>
     </div>
-    <a href="../docs/CV.pdf" download class="btn">Download Full CV</a>
+    <a href="docs/CV.pdf" download class="btn">Download Full CV</a>
   </section>
 
   <section id="contact" class="container">
-  <h2>Contact</h2>
-  <div class="card">
-    <p><strong>Phone:</strong> +6011-2732 691</p>
-    <p><strong>Email:</strong> <a href="mailto:scip32.zw@yahoo.com.my">scip32.zw@yahoo.com.my</a></p>
-  </div>
-  <form id="contactForm">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn">Send Message</button>
-  </form>
-</section>
+    <h2>Contact</h2>
+    <div class="card">
+      <p><strong>Phone:</strong> +6011-2732 691</p>
+      <p><strong>Email:</strong> <a href="mailto:scip32.zw@yahoo.com.my">scip32.zw@yahoo.com.my</a></p>
+    </div>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Chng Zhe Wei — Built with HTML, CSS & JS by Me.</p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Chng Zhe Wei — Built with HTML, CSS & JS by Me.</p>
+  </footer>
 
-<!-- Contact and footer section -->
-
-  <script src="../js/script.js"></script>
+  <script src="js/script.js"></script>
   <script>
     function toggleMode() {
       document.body.classList.toggle('light-mode');
